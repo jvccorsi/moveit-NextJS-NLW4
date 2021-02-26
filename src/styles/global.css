@@ -18,15 +18,15 @@
     --blue-twitter: #2aa9e0;
   }
 
-@media(max-width: 1080px) {
+  @media only screen and (min-width:788px) and (max-width:979px){
     html {
       font-size: 93.75%;
     }
   }
   
-@media(max-width: 720px) {
+  @media only screen and (max-width: 787px) {
     html {
-      font-size: 87.5%;
+      font-size: 82%;
     }
 } 
 body{
